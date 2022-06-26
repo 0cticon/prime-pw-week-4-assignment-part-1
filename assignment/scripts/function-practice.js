@@ -17,18 +17,20 @@ hello();
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName(name) {
-  console.log('Hello,', name);
+  console.log('Hello,', name + '!');
   return;
 }
 // Remember to call the function to test
 helloName('Sam');
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
+
+function addNumbers(a, b) {
+  console.log(a + b);
   // return firstNumber + secondNumber;
 }
 
-
+addNumbers(5, 7);
 // 4. Function to multiply three numbers & return the result
 function multiplyThree() {
 
