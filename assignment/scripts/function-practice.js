@@ -31,11 +31,14 @@ function addNumbers(a, b) {
 }
 
 addNumbers(5, 7);
+
 // 4. Function to multiply three numbers & return the result
-function multiplyThree() {
+function multiplyThree(a, b, c) {
+  console.log(a * b * c);
 
 }
 
+multiplyThree(3, 2, 4);
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
