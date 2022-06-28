@@ -38,11 +38,10 @@ function addNumbers(a, b) {
   return result;
   // return firstNumber + secondNumber;
 }
-let c = addNumbers(5, 7);
+let c = addNumbers(4, 6);
 console.log('addNumbers', c);
+console.log(c);
 
-
-addNumbers(5, 7);
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree(a, b, c) {
